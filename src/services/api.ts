@@ -22,7 +22,7 @@ export default class Api {
 
 	public static async getInstance() {
 		if (!this._instance) {
-			const basePath = `http://${import.meta.env.VITE_BASE_URL}:8081`;
+			const basePath = `http://${import.meta.env.VITE_BASE_URL}`;
 			console.log("Base URL:", basePath);
 			this._instance = new Api(basePath, null);
 		}
