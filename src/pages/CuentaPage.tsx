@@ -18,7 +18,7 @@ const CuentaPage = () => {
                 <label htmlFor="drawer-usuario" className="drawer-overlay"></label>
                 <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
                     <li><Link to="/cuenta/info">Información general</Link></li>
-                    <li><Link to="/cuenta/notificaciones">Notificaciones</Link></li>
+                   {/*<li><Link to="/cuenta/notificaciones">Notificaciones</Link></li>*/}
                     <li><Link to="/cuenta/ordenes">Órdenes</Link></li>
                     <li><Link to="/cuenta/configuracion">Configuración</Link></li>
                 </ul>
