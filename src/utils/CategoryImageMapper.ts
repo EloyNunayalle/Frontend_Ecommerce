@@ -17,6 +17,9 @@ export const getCategoryImageById = async (categoryId: number): Promise<string> 
             Clothing: "/images/ropa.png",
             Books: "/images/libros.png",
             Home: "/images/hogar.png",
+            Baby: "/images/baby.png",
+            Tools: "/images/tools.png",
+
         };
 
         return categoryImages[category.name] || "https://via.placeholder.com/400x200?text=Producto";
