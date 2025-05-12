@@ -51,7 +51,7 @@ const UserInfoCard = () => {
                     <div className="avatar">
                         <div className="w-20 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                             <img
-                                src="https://www.nintenderos.com/wp-content/uploads/2021/08/donkey-kong-super-mario-illumination.jpg"
+                                src="/images/usuario.jpg"
                                 alt="Avatar de usuario"
                             />
                         </div>

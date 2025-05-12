@@ -42,6 +42,7 @@ const Navbar = () => {
         <div className="navbar bg-base-200 shadow-sm fixed top-0 z-50 w-full px-4">
             <div className="flex-1">
                 <Link to="/" className="btn btn-ghost text-xl">Velsora</Link>
+                <Link to="/admin" className="btn btn-outline btn-sm normal-case">Administrador</Link>
             </div>
             <div className="hidden md:flex md:flex-1 justify-center">
                 <SearchBar categorias={categorias} onSearch={handleSearch} />

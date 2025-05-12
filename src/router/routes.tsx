@@ -11,6 +11,7 @@ import ConfiguracionPage from "../pages/cuenta/ConfiguracionPage.tsx";
 import PrivateRoute from "./PrivateRoute.tsx";
 import BuscarPage from "../pages/BuscarPage.tsx";
 import CartPage from "../pages/CartPage.tsx";
+import AdministradorOrdenesPage from "../pages/AdministradorOrdenesPage.tsx";
 
 const AppRoutes = () => {
     return (
@@ -22,6 +23,7 @@ const AppRoutes = () => {
                 <Route path="login" element={<LoginPage />} />
                 <Route path="register" element={<RegisterPage />} />
                 <Route path="/carrito" element={<CartPage />} />
+                <Route path="/admin" element={<AdministradorOrdenesPage />} />
 
                 {/* Página de cuenta */}
                 {/* 🔒 Rutas protegidas */}
